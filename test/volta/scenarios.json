@@ -1,0 +1,10 @@
+{
+    "volta": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "volta": {
+                "node-version": "v24.12.0"
+            }
+        }
+    }
+}

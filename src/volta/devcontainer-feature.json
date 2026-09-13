@@ -1,0 +1,17 @@
+{
+    "name": "Volta Feature",
+    "id": "volta",
+    "version": "0.0.1",
+    "description": "A feature which installs volta, the hassle-free JavaScript tool manager",
+    "options": {
+        "node-version": {
+            "type": "string",
+            "default": "",
+            "description": "Choose a Node.js version to install. If not specified, the latest LTS version will be installed."
+        }
+    },
+
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    }
+}
