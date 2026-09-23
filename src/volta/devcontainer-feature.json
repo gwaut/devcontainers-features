@@ -1,7 +1,7 @@
 {
     "name": "Volta Feature",
     "id": "volta",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A feature which installs volta, the hassle-free JavaScript tool manager",
     "options": {
         "node-version": {
