@@ -5,7 +5,7 @@ set -e
 source dev-container-features-test-lib
 
 # Feature-specific tests
-check "pi-coding-agent installed" bash -c "pi-coding-agent --version" 
+check "pi-coding-agent installed" bash -c "pi --version" 
 check "pi-coding-agent correct version is installed" bash -c "pi --version" | grep "0.85.1"
 
 # Report results
