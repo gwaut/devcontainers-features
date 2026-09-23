@@ -1,0 +1,10 @@
+{
+    "version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "pi-coding-agent": {
+                "version": "0.85.1"
+            }
+        }
+    }
+}

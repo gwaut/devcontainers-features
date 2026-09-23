@@ -13,5 +13,5 @@ if [ -z "$USER_HOME" ]; then
 fi
 
 # install Pi Coding Agent
-su - "$USERNAME" -c "npm install -g --ignore-scripts @earendil-works/pi-coding-agent"
+su - "$USERNAME" -c "npm install -g --ignore-scripts @earendil-works/pi-coding-agent@${PI_VERSION:-latest}"
 
