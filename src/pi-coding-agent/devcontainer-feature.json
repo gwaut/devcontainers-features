@@ -1,0 +1,17 @@
+{
+    "name": "Pi Coding Agent Feature",
+    "id": "pi-coding-agent",
+    "version": "0.0.1",
+    "description": "A feature which installs the Pi Coding Agent",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "",
+            "description": "Choose a version to install. If not specified, the latest version will be installed."
+        }
+    },
+
+    "dependsOn": {
+       "ghcr.io/gwaut/devcontainers-features/volta:latest": {}
+    }
+}
