@@ -13,11 +13,11 @@ if [ -z "$USER_HOME" ]; then
 fi
 
 # install Volta
-su "$USERNAME" -c "curl https://get.volta.sh | bash"
+su - "$USERNAME" -c "curl https://get.volta.sh | bash"
 
 if [ -n "$NODE_VERSION" ]; then
-  su "$USERNAME" -c "$USER_HOME/.volta/bin/volta install node@$NODE_VERSION"
+  su - "$USERNAME" -c "volta install node@$NODE_VERSION"
 else
-  su "$USERNAME" -c "$USER_HOME/.volta/bin/volta install node"
+  su - "$USERNAME" -c "volta install node"
 fi
 
