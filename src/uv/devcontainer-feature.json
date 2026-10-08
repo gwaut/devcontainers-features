@@ -1,0 +1,17 @@
+{
+    "name": "uv Feature",
+    "id": "uv",
+    "version": "0.0.1",
+    "description": "A feature which installs uv, the Python virtual environment manager",
+    "options": {
+        "uv-version": {
+            "type": "string",
+            "default": "",
+            "description": "Choose a uv version to install. If not specified, the latest version will be installed."
+        }
+    },
+
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    }
+}
